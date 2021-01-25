@@ -1,4 +1,4 @@
-# react-instagram-feed
+# react-ig-feed
 
 ![MIT](https://img.shields.io/badge/license-MIT-green)
 ![passing](https://img.shields.io/badge/build-passing-green)
