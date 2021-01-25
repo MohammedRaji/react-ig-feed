@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-ig-feed/static/css/main.ac54f09c.chunk.css",
+    "main.js": "/react-ig-feed/static/js/main.63e663e3.chunk.js",
+    "main.js.map": "/react-ig-feed/static/js/main.63e663e3.chunk.js.map",
+    "runtime-main.js": "/react-ig-feed/static/js/runtime-main.d4162f0a.js",
+    "runtime-main.js.map": "/react-ig-feed/static/js/runtime-main.d4162f0a.js.map",
+    "static/js/2.a9929748.chunk.js": "/react-ig-feed/static/js/2.a9929748.chunk.js",
+    "static/js/2.a9929748.chunk.js.map": "/react-ig-feed/static/js/2.a9929748.chunk.js.map",
+    "static/js/3.660d2426.chunk.js": "/react-ig-feed/static/js/3.660d2426.chunk.js",
+    "static/js/3.660d2426.chunk.js.map": "/react-ig-feed/static/js/3.660d2426.chunk.js.map",
+    "index.html": "/react-ig-feed/index.html",
+    "static/css/main.ac54f09c.chunk.css.map": "/react-ig-feed/static/css/main.ac54f09c.chunk.css.map",
+    "static/js/2.a9929748.chunk.js.LICENSE.txt": "/react-ig-feed/static/js/2.a9929748.chunk.js.LICENSE.txt",
+    "static/media/logo.e27e5d2f.svg": "/react-ig-feed/static/media/logo.e27e5d2f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d4162f0a.js",
+    "static/js/2.a9929748.chunk.js",
+    "static/css/main.ac54f09c.chunk.css",
+    "static/js/main.63e663e3.chunk.js"
+  ]
+}
