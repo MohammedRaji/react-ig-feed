@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-ig-feed/static/css/main.f7958ca4.chunk.css",
-    "main.js": "/react-ig-feed/static/js/main.0cc5d75b.chunk.js",
-    "main.js.map": "/react-ig-feed/static/js/main.0cc5d75b.chunk.js.map",
+    "main.js": "/react-ig-feed/static/js/main.04d83c82.chunk.js",
+    "main.js.map": "/react-ig-feed/static/js/main.04d83c82.chunk.js.map",
     "runtime-main.js": "/react-ig-feed/static/js/runtime-main.1181d48c.js",
     "runtime-main.js.map": "/react-ig-feed/static/js/runtime-main.1181d48c.js.map",
     "static/css/2.cc3811cb.chunk.css": "/react-ig-feed/static/css/2.cc3811cb.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.cc3811cb.chunk.css",
     "static/js/2.d53ec958.chunk.js",
     "static/css/main.f7958ca4.chunk.css",
-    "static/js/main.0cc5d75b.chunk.js"
+    "static/js/main.04d83c82.chunk.js"
   ]
 }
