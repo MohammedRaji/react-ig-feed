@@ -1,47 +1,66 @@
 import React, { Component } from "react";
 import styles from "./styles.module.css";
 
+
 class InstagramFeed extends Component {
   constructor(props) {
     super(props);
     this.state = {
       feeds: [],
+      isError: '',
       isLoaded: false,
     };
   }
 
   componentDidMount() {
-    let url = `https://graph.instagram.com/me/media?fields=media_count,permalink,media_url&&access_token=${this.props.token}`;
+    let url = `https://graph.instagram.com/me/media?fields=media_count,media_type,permalink,media_url&&access_token=${this.props.token}`;
     fetch(url)
       .then((response) => {
         return response.json();
       })
-      .then(
-        (result) => {
-          console.log(result);
-          this.setState({
-            isLoaded: true,
-            feeds: result.data,
-          });
-        },
+      .then(data => {
+          if(data.hasOwnProperty('error')){
+            //console.log('Success:', data);
+            this.setState({
+                isLoaded: true,
+                isError:true,
+              });
 
-        (error) => {
-          this.setState({
+          }else{
+            this.setState({
+                isLoaded: true,
+                feeds: data.data,
+                isError:false,
+              });
+          }
+      })
+      .catch((error) => {
+        console.error('Error:', error);
+        this.setState({
             isLoaded: true,
-            error,
+            isError:true,
+            error
           });
-        }
-      );
+      });
+
+
+
+
+
+
   }
 
   render() {
-    const { error, isLoaded, feeds } = this.state;
+    const { isError, isLoaded, feeds } = this.state;
 
-    if (error) {
-      return <div> Error: {error.message} </div>;
+    if (isError) {
+      return <div className={styles.errorMessage}> 
+            <p> the access token is not valid</p>
+      </div>;
     } else if (!isLoaded) {
       return <div> Loading... </div>;
     } else {
+        console.log(feeds);
       return (
         <div className={styles.instagramItems}>
           {feeds.slice(0, this.props.counter).map((feed, index) => (
@@ -53,12 +72,17 @@ class InstagramFeed extends Component {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img
-                  className={styles.instagramImg}
-                  key={index}
-                  src={feed.media_url}
-                  alt="description"
-                />
+    {(feed.media_type === 'IMAGE'||feed.media_type === 'CAROUSEL_ALBUM')? 
+        <img
+        className={styles.instagramImg}
+        key={index}
+        src={feed.media_url}
+        alt="description"
+      />:
+      <video className={styles.instagramImg} key={index} src={feed.media_url} type="video/mp4"></video>
+  }
+                        
+                
 
                 <div className={styles.instagramIcon}>
                   <div className="instagram-count-item">
