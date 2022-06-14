@@ -68,3 +68,23 @@
     color: red;
     font-size: 18px;
   }
+
+
+
+   .wrapper {
+  position: relative;
+}
+
+.placeholder {
+  position: absolute;
+  padding-bottom: 67%;
+  margin-bottom: 4rem;
+  width: 100%;
+  background: #ffdd28;
+  opacity: 1;
+  transition: opacity 2s ease;
+}
+
+.hidePlaceholder {
+  opacity: 0;
+}

@@ -4,8 +4,8 @@ import InstagramFeed  from 'react-ig-feed'
 import 'react-ig-feed/dist/index.css'
 
 const App = () => {
-  //return <ExampleComponent text="Create React Library Example 😄" />
-  return <InstagramFeed token="IGQVJWVktFTjJ1cmh1dDM0VWkxVzY0ZAWVieEstdl9MSmk1OGRIMDZAsSmRsQ09rcml1cHVLU1p0dm9yTlRYOFN4MjdNQ0k2cGtESEJoVk1OcnM1eDYzX3o5SzNiZAzJjTW1yQlZAsc2VtSXNLRXBVOGNIVAZDZD"  counter="6"/>  
+  
+  return <InstagramFeed token="IGQVJVU3U4ZAjljbGJEVkVVdnZAJOVBsYmlDdzZAlbWw5clk2TDJKRnBIRG5jQlFYanVLTThFV042MWpwdHFNTDBfUnR0OERQZAGZANZA2IwcG9uQjJKMmFSOGxaMk1qZAmxEUzdEb3FKNEYyX3hhYXZAQMlJuRgZDZD" counter="6"/>
 }
 
 export default App
