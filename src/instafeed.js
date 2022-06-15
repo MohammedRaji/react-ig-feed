@@ -52,7 +52,6 @@ const InstagramFeed = props => {
 
   return (
     <div>
-      <div className="height">hi moha</div>
       {isLoading ? (<div> Loading... </div>)
         : isError ? (
           <div>
