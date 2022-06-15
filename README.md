@@ -2,7 +2,7 @@
 
 ![MIT](https://img.shields.io/badge/license-MIT-green)
 ![passing](https://img.shields.io/badge/build-passing-green)
-![v1.0.6](https://img.shields.io/badge/release-v1.0.6-blue)
+![v1.0.7](https://img.shields.io/badge/release-v1.0.7-blue)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 
