@@ -5,7 +5,7 @@ import 'react-ig-feed/dist/index.css'
 
 const App = () => {
   
-  return <InstagramFeed token="IGQVJVU3U4ZAjljbGJEVkVVdnZAJOVBsYmlDdzZAlbWw5clk2TDJKRnBIRG5jQlFYanVLTThFV042MWpwdHFNTDBfUnR0OERQZAGZANZA2IwcG9uQjJKMmFSOGxaMk1qZAmxEUzdEb3FKNEYyX3hhYXZAQMlJuRgZDZD" counter="6"/>
+  return <InstagramFeed token="IGAATZCkzsc8vxBZAE9YbjI5Yi1GTW5EeG5hcmtFN2dueHJLbG4zSDBscWlTV1BVb1B2bVNRYlBZAZAEhhRG9jLVY1OS1jR21DZAU13d3RLWDBGR3VFTmFIWlAyTmlXOVlKcGRibzY5X0RoSHhyU1Q3ekVPYUR6T29wbDhJdHF5THpFWQZDZD" counter="6"/>
 }
 
 export default App
